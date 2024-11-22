@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Applies to all elements on the page */
+* {
+    box-sizing: border-box;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+:root {
+    --background-color: #1B1B1D;
+    --text-color: #ffffff;
+    --section-background: #1B1B1D;
+}
+
+body.light-mode {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --section-background: #ffffff;
+}
+
+/* Applies to body of page */
+body {
+    margin: 0;
+    font-size: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar styles */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(32, 35, 42, 0.9); /* uses rgba value for opacity support */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    z-index: 1000;
+}
+
+.nav-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-right {
+    flex: 1;
+    font-size: 25px;
+    margin-left: 2rem;
+}
+
+/* Center menu styling */
+.nav-center ul {
+    padding: 0;
+    margin: 1;
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav a:hover {
+        color: #ff6347;
+}
+
+section.about,
+section.projects,
+section.contact,
+section.top {
+    width: 100%;
+    background-color: var(--section-background);
+    color: var(--text-color);
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section.bottom {
+    width: 100%;
+    background-color: rgba(32, 35, 42, 1);
+    color: white;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+        color: #ff6347;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Profile image styling */
+.profile-image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socials ul {
+    display: flex;
+    list-style-type: none; /* Removes default bullet points */
+    gap: 2rem;
+    justify-content: center;
+}
+
+.wip {
+    display: flex;
+    justify-content: center;
+}
+
+.work p {
+    text-align: center;
+}
+
+.about-content h2 , p {
+    text-align: center;
+}
+
+.aboutSection h1, .work h1, .socials h1 {
+    margin-left: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.aboutSection p {
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: left;
+    line-height: 2;
+}
