@@ -22,7 +22,7 @@ export default function Navbar() {
         <nav className="nav">
 
             <div className="nav-left">
-                <a href="#top" className="site-title">Site Name</a>
+                <a href="#top" className="site-title">Home</a>
             </div>
 
             <div className="nav-center">
