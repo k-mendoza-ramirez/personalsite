@@ -4,8 +4,8 @@ export default function Top() {
             <header className="about-content">
                 <div className="profile-container">
                     <img
-                        src="https://placehold.co/400x400"
-                        alt="Placeholder for personal image"
+                        src="https://media.licdn.com/dms/image/v2/D5603AQGcx7SgD_F9Pw/profile-displayphoto-shrink_800_800/B56ZNnhvDiG4Ag-/0/1732608717301?e=1738195200&v=beta&t=cJrVltIuqrhygtCihdxjqJdyep6S7mE-9TuzfMLJuBM"
+                        alt="Headshot Image"
                         className="profile-image"
                     />
                 </div>
