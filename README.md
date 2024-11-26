@@ -16,6 +16,6 @@ The main goal of this website is to present my capabilities in web development t
 
 **HTML5 & CSS3:** Used for structuring the content and styling the website, respectively.
 
-**Flexbox & CSS Grid:** Implemented to create a responsive layout that adapts to different screen sizes.
+**Flexbox:** Implemented to create a responsive layout that adapts to different screen sizes.
 
 **Git & GitHub Pages:** Version control is managed using Git, and the website is deployed using GitHub Pages.
