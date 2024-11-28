@@ -181,5 +181,18 @@ section.bottom {
     .aboutSection p {
         margin-left: 2rem;
         margin-right: 2rem;
+        line-height: 1.5;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .nav {
+        padding: 0 1rem;
+    }
+
+    .nav-center ul {
+        gap: 2rem;
     }
 }
