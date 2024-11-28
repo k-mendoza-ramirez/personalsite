@@ -171,3 +171,15 @@ section.bottom {
     text-align: left;
     line-height: 2;
 }
+
+@media (max-width: 1440px) {
+    .aboutSection h1, .work h1, .socials h1 {
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .aboutSection p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
